@@ -1,7 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     justify-content: center;
 }
 
@@ -13,4 +11,13 @@
 #canvas-container {
     width: 100%;
     text-align:center;
+    margin: 0;
+    padding: 0;
  }
+
+.center {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

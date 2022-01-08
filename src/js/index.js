@@ -1,6 +1,8 @@
 //Made with this Dev Ed tutorial https://www.youtube.com/watch?v=3GqUM4mEYKA
 //converted to ES6 for 233JS assignment
 
+import '../css/style.css';
+
 class Drawing {
 
     constructor() {
