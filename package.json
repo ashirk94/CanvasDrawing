@@ -4,10 +4,7 @@
   "description": "canvas drawing",
   "main": "src/main.js",
   "scripts": {
-    "test": "test",
-    "webpack": "webpack",
-    "build": "webpack --config webpack.config.js",
-    "watch": "webpack serve"
+    "test": "echo test"
   },
   "repository": {
     "type": "git",
@@ -19,25 +16,7 @@
   "author": "Alan Shirk",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.14.5",
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "@popperjs/core": "^2.11.0",
-    "css-loader": "^6.2.0",
-    "file-loader": "^6.2.0",
-    "imagemin": "^8.0.1",
-    "img-loader": "^4.0.0",
-    "style-loader": "^3.2.1",
-    "url-loader": "^4.1.1",
-    "webpack": "latest",
-    "webpack-cli": "latest",
-    "webpack-dev-server": "latest"
   },
   "dependencies": {
-    "babel-loader": "^8.2.3",
-    "boostrap": "latest",
-    "bootstrap-less": "^3.3.8",
-    "html-webpack-plugin": "^5.5.0",
-    "less": "^4.1.1"
   }
 }
